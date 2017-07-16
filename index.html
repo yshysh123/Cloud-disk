@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="kuangxuan"></div>
+		<div id="div_right">
+			<div id="R_newname">
+				新建文件夹
+				<div id="R_rename">
+					重命名
+					<div id="R_delete">
+						删除
+						<div id="R_change">
+							切换模式(文件夹/列表)
+							<div id="R_paixu">
+								排序
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="yun_body">
+			<div id="yun_title" class="clearfix">
+				<div class="yun_logo">妙味云盘</div>
+				<div class="yun_shezhi">
+					<a href="javascript:;"><img src="images/shezhi.png"/></a>
+				</div>
+				<a href="javascript:;" class="yun_id1"><img src="images/head.png"/></a>
+				<a href="javascript:;" class="yun_id2"><img src="images/dow.png"/></a>
+			</div>
+			<div id="yun_nav">
+				<div id="yun_nav_left">
+					<ul class="clearfix">
+						<li><a href="javascript:;"><img src="images/download.png"/></a></li>
+						<li><a href="javascript:;"><img src="images/share.png"/></a></li>
+						<li><a href="javascript:;"><img src="images/move.png"/></a></li>
+						<li><a href="javascript:;"><img src="images/newname.png"/></a></li>
+						<li><a href="javascript:;"><img src="images/delete.png"/></a></li>
+						<li><a href="javascript:;"><img src="images/new.png"/></a></li>
+						<li><a href="javascript:;"><img src="images/flash.png"/></a></li>
+					</ul>
+				</div>
+				<div id="yun_nav_right">
+					<div class="yun_book"><a href="javascript:;"><img src="images/book.png"/></a></div>
+					<div class="yun_up">
+						<a href="javascript:;" class="yun_up1"><img src="images/4fang.png"/></a>
+						<a href="javascript:;" class="yun_up2"><img src="images/up.png"/></a>
+					</div>
+				</div>
+				<div id="yun_nav_concat"></div>
+				<div id="yun_nav_xiala">
+					<div id="yun_time">按时间排序</div>
+					<div id="yun_zimu">按字母排序</div>
+					<div id="yun_suolue">显示缩略图</div>
+				</div>
+			</div>
+			<div id="yun_content" class="clearfix">
+				<div id="yun_content_left">
+					<ul id="list">
+						<!--<li>
+							<img src="images/down.png"/>
+							<img src="images/wenjianjia2.png"/>
+							<h2>微云</h2>
+							<ul>
+								<li>
+									<img src="images/down.png"/>
+									<img src="images/wenjianjia2.png"/>
+									<h2>JS课程</h2>
+									<ul>
+										<li>
+											<img src="images/down.png"/>
+											<img src="images/wenjianjia2.png"/>
+											<h2>123</h2>
+										</li>
+										<li>
+											<img src="images/down.png"/>
+											<img src="images/wenjianjia2.png"/>
+											<h2>223</h2>
+										</li>
+										<li>
+											<img src="images/down.png"/>
+											<img src="images/wenjianjia2.png"/>
+											<h2>CSS课程</h2>
+											<ul>
+												<li><img src="images/wenjianjia3.png"/><h2>CSS课程</h2></li>
+												<li><img src="images/wenjianjia3.png"/><h2>123</h2></li>
+												<li><img src="images/wenjianjia3.png"/><h2>JS基础课程</h2></li>
+											</ul>
+										</li>
+										<li>
+											<img src="images/down.png"/>
+											<img src="images/wenjianjia3.png"/>
+											<h2>11111</h2>
+										</li>
+										<li>
+											<img src="images/down.png"/>
+											<img src="images/wenjianjia3.png"/>
+											<h2>11111</h2>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>-->
+					</ul>
+				</div>
+				<div id="yun_content_right" class="clearfix">
+					<div id="yun_content_right_top">
+						<div id="yun_rename" class="list">
+							<input type="text" placeholder="新建文件夹"/>
+							<span>√</span>
+							<span>×</span>
+						</div>
+						<input type="checkbox" class="yun_checkboxall"/>
+						<div id="yun_crt_D">
+							<!--<div class="yun_nr">微云</div>
+							<div class="yun_nr">JS课程</div>
+							<div class="yun_nr">CSS课程</div>
+							<div class="yun_nr">JS基础课程</div>-->
+						</div>
+					</div>
+					<div id="yun_content_right_bottom" class="list">
+						<!--<div class="yun_content_right_bottom_nr">
+							<input type="checkbox" class="yun_checkbox"/>
+							<div class="yun_content_nr">JS基础课程</div>
+							<div class="yun_content_caozuo">
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+							</div>
+							<div class="yun_content_time">2017-6-18&nbsp;&nbsp;14:12</div>
+						</div>
+						<div class="yun_content_right_bottom_nr">
+							<input type="checkbox" class="yun_checkbox"/>
+							<div class="yun_content_nr">JS基础课程</div>
+							<div class="yun_content_caozuo">
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+							</div>
+							<div class="yun_content_time">2017-6-18&nbsp;&nbsp;14:12</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<script src="js/data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/xuanran.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var list = document.getElementById('list');
+			var yun_content = document.getElementById('yun_content')
+			var yun_crt_D = document.getElementById('yun_crt_D');
+			var yun_content_right_bottom =document.getElementById('yun_content_right_bottom');
+			var yun_content_right_top = document.getElementById('yun_content_right_top');
+			var yun_nav_left =document.getElementById('yun_nav_left')
+			var lis = yun_nav_left.getElementsByTagName('ul')[0].getElementsByTagName('li');
+			var all = yun_content_right_top.getElementsByTagName('input')[1];
+			var kuangxuan = document.getElementById('kuangxuan');
+			var liskx = yun_content_right_bottom.getElementsByClassName('yun_content_right_bottom_nr');
+			var arr = [];
+			var arr2 = [];
+			var str = '';
+			var strR = '';
+			var arrdata = [];
+			var arrpath = [];
+			var arrid = [];
+			var numCMM = 0;
+			var numCM = 0;
+			var chongMMnum = 1;
+			var newnum = 1;
+			
+			//book
+			var yun_book =document.getElementsByClassName('yun_book')[0];
+			var yun_bookOnf = true;
+
+			yun_book.onclick = function(){
+				bookFn();
+			}
+			function bookFn(){
+				if(yun_bookOnf){
+					yun_content_right_bottom.className = 'wjj';
+					yun_rename.className = 'wjj';
+					if(location.hash == ''){
+						createChild(Data)
+					}else{
+						createChild(arrdata)
+					}
+				}else{
+					yun_content_right_bottom.className = 'list';
+					yun_rename.className = 'list';
+					if(location.hash == ''){
+						createChild(Data)
+					}else{
+						createChild(arrdata)
+					}
+				}
+				yun_bookOnf = !yun_bookOnf;
+			}
+			
+			//右键菜单
+			var oTimer=null;
+			var rightDivs = div_right.getElementsByTagName('div');
+			yun_content_right_bottom.oncontextmenu = function(ev) {
+				var ev = ev || event;
+				ev.preventDefault();
+				if(ev.clientX > yun_content.offsetLeft&& ev.clientX < yun_content.offsetLeft+yun_content.offsetWidth && ev.clientY>yun_content.offsetTop && ev.clientY<yun_content.offsetTop+yun_content.offsetHeight){
+					clearInterval(oTimer);
+					div_right.style.display = 'block';
+					for(var i=1;i<rightDivs.length;i++){
+						rightDivs[i].className="";
+					}
+					var i=0;
+					oTimer=setInterval(function(){
+						rightDivs[i].className="open";
+						i++;
+						if(i==rightDivs.length)
+						{
+							clearInterval(oTimer);
+						}
+					},100);
+				}
+				
+				div_right.style.left = ev.clientX + 'px';
+				div_right.style.top = ev.clientY + 'px';
+				
+			}
+			document.onclick =function(ev){
+				if(ev.target.parentNode!=div_right){
+					div_right.style.display = 'none';
+				}
+			}
+			var R_newname = document.getElementById('R_newname');
+			var R_rename = document.getElementById('R_rename');
+			var R_delete = document.getElementById('R_delete');
+			var R_change = document.getElementById('R_change');
+			var R_paixu = document.getElementById('R_paixu');
+			R_newname.onclick  =  function(ev){
+				ev.cancelBubble = true;
+				div_right.style.display = 'none';
+				addDataFn();
+			}
+			R_rename.onclick = function(ev){
+				ev.cancelBubble = true;
+				div_right.style.display = 'none';
+				renameFn();
+			}
+			R_delete.onclick = function(ev){
+				ev.cancelBubble = true;
+				div_right.style.display = 'none';
+				deleteFn();
+			}
+			R_change.onclick = function(ev){
+				ev.cancelBubble = true;
+				div_right.style.display = 'none';
+				bookFn();
+			}
+			R_paixu.onclick = function(ev){
+				ev.cancelBubble = true;
+				div_right.style.display = 'none';
+			}
+//			arrdata.push(Data[0]);
+//			初始化左边数据
+			xrleftFn(Data);
+			function xrleftFn(data){
+				var str = '';
+				str = fn(data);
+				function fn(data){
+					var str = '';
+					data.forEach(function(a){
+						if(a.child.length){
+							//有子集
+							str+='<li><img src="images/down.png" class="right">&nbsp;<img src="images/wenjianjia3.png" class="wjj">&nbsp;<h3>'+a.name+'</h3><ul>'+fn(a.child)+'</ul></li>';
+						}else{
+							//没子集
+							str+='<li><img src="" class="right">&nbsp;<img src="images/wenjianjia3.png" class="wjj">&nbsp;<h3>'+a.name+'</h3></li>';
+						}	
+					})
+					return str;
+				}
+				list.innerHTML = str;
+//				console.log(str)
+				var h3s = list.getElementsByTagName('h3');
+				var sj = list.getElementsByClassName('right');
+				var wjj = list.getElementsByClassName('wjj');
+				var num=1;
+				for(var i=0;i<h3s.length;i++){
+					//true：收缩，false：展开
+					h3s[i].onOff = true;
+					h3s[i].index = i;
+					h3s[i].onclick = function(){
+						var next = this.nextElementSibling;
+						if(next){
+							if(this.onOff){
+								location.hash = '';
+								next.style.display = 'block';
+								sj[this.index].style.transform = 'rotate(0) translateY(-4px)';
+								wjj[this.index].src = "images/wenjianjia2.png";
+								changehash(this)
+							}else{
+								location.hash = '';
+								next.style.display = '';
+								sj[this.index].style.transform = 'rotate(-90deg) translateX(3px)'
+								wjj[this.index].src = "images/wenjianjia3.png";
+								changehash(this)
+							}
+							this.onOff = !this.onOff;
+						}else{
+							location.hash = '';
+							wjj[this.index].src = "images/wenjianjia3.png";
+							changehash(this);
+						}
+					}
+				}
+			}
+			//渲染右侧顶部内容
+			xuanranRFn()
+			function xuanranRFn(){
+				arrpath = location.hash.substr(1).split('/').slice(1);
+//				console.log(arrpath[0])
+				var str = '<a href="javascript:;" class="yun_nr">首页</a>';
+				for(var i=0;i<arrpath.length;i++){
+					if(i==0){
+						str += '<span class="yun_jiantou">></span><a href="javascript:;" class="yun_nr">'+arrpath[0]+'</a><span class="yun_jiantou">></span>'
+					}else if(i==arrpath.length-1){
+						str += '<div class="yun_nr">'+arrpath[i]+'</div>';
+						yun_crt_D.innerHTML = str;
+						break;
+					}else{
+						str += '<a href="javascript:;" class="yun_nr">'+arrpath[i]+'</a><span class="yun_jiantou">></span>'
+					}
+				}
+				yun_crt_D.innerHTML = str;
+				var Ras =yun_crt_D.getElementsByTagName('a');
+//				console.log(Ras)
+				
+				for(var i=0;i<Ras.length;i++){
+					Ras[i].index = i;
+					if(i==0){
+						Ras[0].onclick = function(){
+							location.hash = '';
+							return
+						}
+					}else{
+						Ras[i].onclick = function(){
+							location.hash = '';
+							for(var i=0;i<=this.index-1;i++){
+								location.hash += '/'+arrpath[i];
+							}
+						}
+					}
+				}
+			}
+			//获取时间
+			function getDate(){
+				var date = new Date;
+				var str = '';
+				str += date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()+' '+tTwo(date.getHours())+':'+tTwo(date.getMinutes())+':'+tTwo(date.getSeconds());
+				return str;
+			}
+			function tTwo(n){
+				return n>10?''+n:'0'+n;
+			}
+			//渲染中间内容
+			createChild(Data)
+			function createChild(data){
+				yun_content_right_bottom.innerHTML = '';
+				for(let i=0;i<data.length;i++){
+					var div1 = document.createElement('div');
+					div1.innerHTML = '<input type="checkbox" class="yun_checkbox"/>';
+					div1.className = 'yun_content_right_bottom_nr';
+					var div2 = document.createElement('div');
+					div2.className = 'yun_content_nr';
+					div2.innerHTML = data[i].name;
+					div2.onid = data[i].id;
+					var div3 = document.createElement('div');
+					div3.className = 'yun_content_caozuo';
+					for(var j=0;j<5;j++){
+						var a = document.createElement('a');
+						//a标签操作
+						if(j==3){
+							a.onclick = function(){
+								if(tianjiaOnf){
+									tianjiaOnf = false;
+									hashFn();
+									yun_rename.style.display = 'block';
+						    		yun_rename.style.top = 62+ 51*i +'px';
+						    		spans[0].onclick = function(){
+						    			yun_rename.style.display = 'none';
+						    			if(inpval.value){
+						    				inpval.value = inpval.value + chongming(arrdata,inpval.value);
+						    				arrdata[i].name = inpval.value;
+						    			}else{
+						    			}
+						    			inpval.value = '';
+						    			createChild(arrdata);
+						    			CZsxrleftFn(Data);
+						    			quanxuan();
+						    			tianjiaOnf = true;
+						    		}
+						    		spans[1].onclick = function(){
+						    			yun_rename.style.display = 'none';
+						    			quanxuan();
+						    			tianjiaOnf = true;
+						    		}
+									createChild(arrdata);
+									CZsxrleftFn(Data);
+									quanxuan();
+								}
+							}
+						}
+						if(j==4){
+							a.onclick = function(){
+								if(tianjiaOnf){
+									tianjiaOnf = false;
+									yun_rename.style.display = 'none';
+									data.splice(i,1);
+									createChild(arrdata);
+									CZsxrleftFn(Data);
+									quanxuan();
+									tianjiaOnf = true;
+								}
+							}
+						}
+						div3.appendChild(a);
+					}
+					var div4 = document.createElement('div');
+					div4.className = 'yun_content_time';
+					div4.innerHTML =  getDate();
+					div2.ondblclick = function(){
+						location.hash += '/'+this.innerHTML;
+					}
+					div2.onclick = function(){
+						this.parentNode.style.backgroundColor = '#f5f8fa';
+					}
+					div1.appendChild(div2)
+					div1.appendChild(div3)
+					div1.appendChild(div4)
+//					drag(div1)
+					yun_content_right_bottom.appendChild(div1)
+				}
+				//格式转换
+				if(!yun_bookOnf){
+					zhuanhuan();
+				}else{
+					zhuanhuan2();
+				}
+				//拖拽
+				drag();
+			}
+			var n = 0;
+			var hashobj = null;
+			arrdata = Data;
+			function hashFn(){
+				arrpath = location.hash.substr(1).split('/').slice(1);
+				if(arrpath.length==0){
+					arrdata = Data;
+					createChild(arrdata);
+					CZsxrleftFn(Data);
+					xuanranRFn();
+					quanxuan();
+				}else{
+//					console.log(Data,arrpath[n])
+					getDatabyname(Data,arrpath[n]);	
+					arrdata = hashobj.child;
+					n=0;
+				}
+//				console.log(arrdata)
+			}
+			//hash改变
+			window.onhashchange = function(){
+				all.checked = '';
+				chongMMnum = 1;
+				newnum = 1;
+				hashFn();
+//				xuanranRFn();
+//				xrleftFn(Data);
+				createChild(arrdata);
+				CZsxrleftFn(Data);
+				xuanranRFn();
+				quanxuan();
+//				console.log(Data)
+			}
+
+			//判断全选函数
+			var m = 0;
+			quanxuan();
+			function quanxuan(){
+				m=0;
+				var inps = yun_content_right_bottom.getElementsByTagName('input');
+//				console.log(all)
+				for(var i=0;i<inps.length;i++){
+					inps[i].index = i;
+					inps[i].onclick = function(){
+						CMMpanduan();
+						if(inps[this.index].checked){
+							m++;
+						}else{
+							m--;
+						}
+						checkAll()
+					}
+		    	}
+				checkAll()
+			    function checkAll(){
+			    	var n=0;
+			    	for(var i=0;i<inps.length;i++){
+			    		if(inps[i].checked){
+			    			n++;
+			    		}
+			    	}
+			    	if(m == inps.length||n == inps.length){
+			    		if(n!=0){
+			    			all.checked = 'checked';
+			    		}
+			    	}else{
+			    		all.checked = '';
+			    	}
+			    }
+			    //全选按钮
+			    all.onclick = function(){
+			    	console.log(inps)
+			    	for(var i=0;i<inps.length;i++){
+			    		if(this.checked){
+			    			inps[i].checked = true;
+			    			m=inps.length-1;
+				    	}else{
+				    		inps[i].checked = false;
+				    		m=0;
+				    	}
+			    	}
+			    }
+		    }
+			
+			
+			//添加
+			var tianjiaOnf = true;
+		    lis[5].onclick = function(){
+		    	addDataFn();
+		    	quanxuan();
+		    }
+		    //删除
+		    lis[4].onclick = function(){
+		    	deleteFn();
+		    	quanxuan();
+		   	}
+			//重命名
+			var yun_rename =document.getElementById('yun_rename');
+			var spans = yun_rename.getElementsByTagName('span');
+			var inpval = yun_rename.getElementsByTagName('input')[0];
+//			CMMpanduan()
+			function CMMpanduan(){
+				var inps = yun_content_right_bottom.getElementsByTagName('input');
+				numCMM=0;
+				for(var i=0;i<inps.length;i++){
+		    		if(inps[i].checked){
+		    			numCMM++;
+		    		}
+		    	}
+//				console.log(numCMM)
+		    	if(numCMM==1){
+		    		lis[3].style.opacity = '1';
+    			}else{
+    				lis[3].style.opacity = '0.5';
+    			}
+			}
+			
+			//重命名
+			lis[3].onclick = function(){
+				renameFn();
+		  	}
+			
+			
+		
+			//框选
+			
+			yun_content_right_bottom.onmousedown = function(ev){
+				ev.cancelBubble = true;
+				ev.preventDefault();
+				var nL = ev.clientX;
+				var nT = ev.clientY;
+				
+				kuangxuan.style.display = 'block';
+				document.onmousemove = function(ev){
+					var dL = ev.clientX;
+					var dT = ev.clientY;
+					var w = Math.abs(nL-dL);
+					var h = Math.abs(nT-dT);
+					var l = nL>dL?dL:nL;
+					var t = nT>dT?dT:nT;
+					
+					kuangxuan.style.width = w+'px';
+					kuangxuan.style.height = h+'px';
+					kuangxuan.style.left = l+'px';
+					kuangxuan.style.top = t+'px';
+					//清除
+					for(var i=0;i<arr.length;i++){
+						arr[i].style.background = '';
+					}
+					arr = [];
+					arr2 = [];
+//					每次都是当前被选中的
+					for(var i=0;i<liskx.length;i++){
+						liskx[i].onOff = true;
+						if(duang(kuangxuan,liskx[i])){
+							liskx[i].getElementsByTagName('input')[0].checked = 'true';
+							liskx[i].onOff = false;
+							liskx[i].style.backgroundColor='#f5f8fa';
+							arr.push(liskx[i]);
+							arr2.push(arrdata[i]);
+						}else{
+							liskx[i].getElementsByTagName('input')[0].checked = '';
+						}
+					}
+					quanxuan();
+				}
+				document.onmouseup = function(){
+					kuangxuan.style.cssText = '';
+					document.onmousemove = null;
+					document.onmouseup = null;
+				}
+			}
+			function duang(obj1,obj2){
+				var pos1 = obj1.getBoundingClientRect();
+				var pos2 = obj2.getBoundingClientRect();
+				if(pos1.right<pos2.left || pos1.bottom<pos2.top || pos1.left>pos2.right || pos1.top>pos2.bottom){
+					return false;
+				}else{
+					return true;
+				}
+			}
+			
+			function zhuanhuan(){
+				for(var i=0;i<liskx.length;i++){
+					liskx[i].style.left = liskx[i].offsetLeft+'px';
+					liskx[i].style.top = liskx[i].offsetTop+'px';
+					setTimeout(function(i){
+						liskx[i].style.float = 'none';
+						liskx[i].style.position = 'absolute';
+					},0,i)
+				}
+			}
+			
+			function zhuanhuan2(){
+				for(var i=0;i<liskx.length;i++){
+					liskx[i].style.cssText = '';
+					setTimeout(function(i){
+						liskx[i].style.float = 'left';
+						liskx[i].style.position = 'relative';
+					},0,i)
+				}
+			}
+			
+			//li上阻止冒泡，不会触发document上按下的框选
+			function drag(){
+				for(var i=0;i<liskx.length;i++){
+					liskx[i].onmousedown = function(ev){
+						ev.cancelBubble = true;
+						ev.preventDefault();
+						if(arr.includes(this)){
+							var nL = ev.clientX;
+							var nT = ev.clientY;
+							var divtm = document.createElement('div');
+							divtm.style.position = 'absolute'
+							divtm.style.left = this.offsetLeft + 'px';
+							divtm.style.display = 'none';
+							divtm.style.top = this.offsetTop + this.offsetHeight/2 + 'px';
+							yun_content_right_bottom.appendChild(divtm);
+							if(yun_bookOnf){
+								divtm.className = 'map2';
+								divtm.style.left = this.offsetLeft + 'px';
+								divtm.style.top = this.offsetTop + this.offsetHeight/2 + 'px';
+								var disX = nL - this.offsetLeft;
+								var disY = nT - this.offsetTop - this.offsetHeight/2;
+							}else{
+								divtm.className = 'map';
+								divtm.style.left = this.offsetLeft +30+ 'px';
+								divtm.style.top = this.offsetTop +30+ 'px';
+								var disX = nL - this.offsetLeft;
+								var disY = nT - this.offsetTop;
+							}
+							
+							
+							document.onmousemove = function(ev){
+								//移动时当前鼠标坐标
+								var dL = ev.clientX;
+								var dT = ev.clientY;
+								if(dL-nL>10||dT-nT>10){
+									divtm.style.display = 'block';
+								}
+								var L =  dL-disX;
+								var T = dT-disY;
+								if(yun_bookOnf){
+									divtm.style.left = L + 'px';
+									divtm.style.top = T + 'px';
+								}else{
+									divtm.style.left = L +30+ 'px';
+									divtm.style.top = T +30+ 'px';
+								}
+//								divtm.style.left = L + 'px';
+//								divtm.style.top = T + 'px';
+							}
+							document.onmouseup = function(){
+								var hashTz = location.hash;
+								if(hashTz){
+									
+								}else{
+									arrdata = Data;
+								}
+								for(var i=0;i<liskx.length;i++){
+									if(liskx[i].onOff){
+										if(duang(divtm,liskx[i])){
+////											alert(liskx[i].getElementsByClassName('yun_content_nr')[0].innerHTML)
+											for(var j=0;j<arr2.length;j++){
+												console.log(arrdata[i],arr2[j])
+												arrdata[i].child.push(arr2[j]);
+											}
+											yun_content_right_bottom.removeChild(divtm);
+											deleteFn();
+											document.onmousemove = null;
+											document.onmouseup = null;
+											return;
+										}
+										else{
+											continue;
+										}
+									}
+								}
+								yun_content_right_bottom.removeChild(divtm);
+								document.onmousemove = null;
+								document.onmouseup = null;
+							}
+						}
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
